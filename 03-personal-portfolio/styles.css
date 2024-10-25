@@ -93,6 +93,7 @@ main {
 
 .hero {
   text-align: center;
+  margin-top: 1rem;
 }
 
 /* Sections */
@@ -260,3 +261,37 @@ button:active {
     padding-bottom: 0;
   }
 }
+
+.resume-section {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Align items in a column */
+  width: 100%; /* Full width like the other sections */
+}
+
+.resume-section h3 {
+  text-align: left; /* Align the heading to the left */
+}
+
+.resume-section p {
+  margin-bottom: 1rem; /* Space below the paragraph */
+}
+
+.resume-section a {
+  display: inline-block; /* Button style */
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding for the button */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.resume-section a:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Positioning for grid layout */
+.resume-section {
+  grid-area: 2 / 4 / 3 / 8; /* Adjust to place below education */
+}
+
