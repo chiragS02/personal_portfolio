@@ -295,14 +295,19 @@ button:active {
   grid-area: 2 / 4 / 3 / 8; /* Adjust to place below education */
 }
 
-.hero .social-links {
+.social-links {
     text-align: center; /* Center the links */
-    margin-top: 15px; /* Optional: Add some spacing above the links */
+    margin-top: 20px; /* Space above the links */
 }
 
-.hero .social-links a {
-    margin: 0 10px; /* Space between the links */
-    display: inline-flex; /* Aligns icon and text */
-    align-items: center; /* Centers the icon vertically with text */
+.social-links a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+    margin: 0 10px; /* Space between links */
 }
+
+.social-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 
